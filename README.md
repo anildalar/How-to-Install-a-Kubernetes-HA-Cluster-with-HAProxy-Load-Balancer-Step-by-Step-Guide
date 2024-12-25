@@ -1,9 +1,7 @@
 # How-to-Install-a-Kubernetes-HA-Cluster-with-HAProxy-Load-Balancer-Step-by-Step-Guide
 How to Install a Kubernetes HA Cluster with HAProxy Load Balancer | Step-by-Step Guide
 
-<pre>
-
-  apt-get update
+apt-get update
 apt-get upgrade
 apt-get install sudo -y
 usermod -aG sudo Linux
@@ -178,5 +176,3 @@ kubectl get svc -n web
 
 
 kubectl label node prod-k8s-worker01 prod-k8s-worker02 prod-k8s-worker03 node-role.kubernetes.io/worker=worker
-
-</pre>
